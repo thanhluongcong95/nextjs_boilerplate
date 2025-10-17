@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`RootLoading matches the rendered snapshot 1`] = `
+<DocumentFragment>
+  <section
+    aria-live="polite"
+    data-testid="route-loading"
+  >
+    <p
+      data-testid="route-loading-message"
+    >
+      Loading your workspace...
+    </p>
+    <p
+      data-testid="route-loading-description"
+    >
+      Preparing your application shell...
+    </p>
+    <button
+      type="button"
+    >
+      Retry 0
+    </button>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+node_modules
+.next
+dist
+build
+coverage
+public
+.husky
+*.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+

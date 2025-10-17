@@ -1,0 +1,20 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.experimental.useFlatConfig": true,
+  "files.eol": "\n",
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc.mjs",
+  "i18n-ally.localesPaths": [
+    "src/lang"
+  ]
+}

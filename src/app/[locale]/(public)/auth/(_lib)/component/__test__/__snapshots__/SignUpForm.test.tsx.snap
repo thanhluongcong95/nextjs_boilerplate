@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SignUpForm should match snapshot for initial form view 1`] = `
+<DocumentFragment>
+  <form
+    class="space-y-6"
+  >
+    <div
+      class="space-y-2 text-left"
+    >
+      <h2
+        class="text-xl font-semibold tracking-tight text-black"
+      >
+        Create your account
+      </h2>
+      <p
+        class="text-sm text-slate-600"
+      >
+        Enter your details below.
+      </p>
+    </div>
+    <div
+      class="space-y-5"
+    >
+      <label
+        class="flex flex-col gap-1 text-sm text-slate-600"
+        for="fullName"
+      >
+        <span
+          class="font-medium text-slate-700"
+        >
+          Full name
+        </span>
+        <div
+          class="relative"
+        >
+          <input
+            class="w-full rounded-md border px-3 py-2 text-sm outline-none transition border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 bg-white text-slate-900 placeholder:text-slate-400"
+            id="fullName"
+            placeholder="John Doe"
+            required=""
+            value=""
+          />
+        </div>
+      </label>
+      <label
+        class="flex flex-col gap-1 text-sm text-slate-600"
+        for="email"
+      >
+        <span
+          class="font-medium text-slate-700"
+        >
+          Work email
+        </span>
+        <div
+          class="relative"
+        >
+          <input
+            autocomplete="email"
+            class="w-full rounded-md border px-3 py-2 text-sm outline-none transition border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 bg-white text-slate-900 placeholder:text-slate-400"
+            id="email"
+            placeholder="you@company.com"
+            required=""
+            type="email"
+            value=""
+          />
+        </div>
+        <span
+          class="text-xs text-slate-400"
+        >
+          Allowed domains: @grow-ps.com
+        </span>
+      </label>
+      <label
+        class="flex flex-col gap-1 text-sm text-slate-600"
+        for="password"
+      >
+        <span
+          class="font-medium text-slate-700"
+        >
+          Password
+        </span>
+        <div
+          class="relative"
+        >
+          <input
+            autocomplete="new-password"
+            class="w-full rounded-md border px-3 py-2 text-sm outline-none transition pr-10 border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 bg-white text-slate-900 placeholder:text-slate-400"
+            id="password"
+            minlength="8"
+            placeholder="••••••••"
+            required=""
+            type="password"
+            value=""
+          />
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-3"
+          >
+            <button
+              aria-label="Toggle password visibility"
+              aria-pressed="false"
+              class="font-medium uppercase tracking-wide"
+              type="button"
+            >
+              <span
+                aria-label="eye"
+                class="anticon anticon-eye"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="eye"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </span>
+        </div>
+      </label>
+      <label
+        class="flex flex-col gap-1 text-sm text-slate-600"
+        for="confirmPassword"
+      >
+        <span
+          class="font-medium text-slate-700"
+        >
+          Confirm password
+        </span>
+        <div
+          class="relative"
+        >
+          <input
+            autocomplete="new-password"
+            class="w-full rounded-md border px-3 py-2 text-sm outline-none transition pr-10 border-slate-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 bg-white text-slate-900 placeholder:text-slate-400"
+            id="confirmPassword"
+            minlength="8"
+            placeholder="••••••••"
+            required=""
+            type="password"
+            value=""
+          />
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-3"
+          >
+            <button
+              aria-label="Toggle password visibility"
+              aria-pressed="false"
+              class="font-medium uppercase tracking-wide"
+              type="button"
+            >
+              <span
+                aria-label="eye"
+                class="anticon anticon-eye"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="eye"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </span>
+        </div>
+      </label>
+    </div>
+    <div
+      class="space-y-3"
+    >
+      <button
+        class="inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition bg-indigo-600 text-white shadow hover:bg-indigo-500 disabled:bg-indigo-300 w-full rounded-full px-6 py-3 text-sm font-semibold disabled:cursor-not-allowed disabled:opacity-70"
+        disabled=""
+        type="submit"
+      >
+        Create account
+      </button>
+      <p
+        class="text-center text-xs text-slate-600"
+      >
+        By continuing you accept the terms.
+      </p>
+    </div>
+    <p
+      class="text-center text-sm text-slate-600"
+    >
+      Already have an account? 
+      <a
+        href="/en/auth/signin"
+      >
+        Sign in
+      </a>
+    </p>
+  </form>
+</DocumentFragment>
+`;

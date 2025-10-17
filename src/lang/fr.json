@@ -1,0 +1,380 @@
+{
+  "profile": {
+    "title": "Mon Profil",
+    "subtitle": "Gérez votre profil et vos préférences",
+    "editProfile": "Modifier le profil",
+    "changePassword": "Changer le mot de passe",
+    "personalInfo": "Informations personnelles",
+    "noProfileData": "Aucune donnée de profil disponible. Veuillez vous connecter.",
+    "form": {
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Entrez votre nom complet",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "phonePlaceholder": "Entrez le numéro de téléphone",
+      "role": "Rôle",
+      "joinedDate": "Date d'inscription",
+      "avatar": "Photo de profil",
+      "avatarPlaceholder": "https://exemple.com/avatar.jpg",
+      "uploadAvatar": "Télécharger une photo",
+      "save": "Enregistrer les modifications",
+      "cancel": "Annuler"
+    },
+    "messages": {
+      "updateSuccess": "Profil mis à jour avec succès",
+      "updateError": "Échec de la mise à jour du profil"
+    },
+    "loading": "Chargement des informations du profil...",
+    "validation": {
+      "required": "Ce champ est obligatoire",
+      "phoneInvalid": "Le numéro de téléphone doit contenir au moins 10 chiffres"
+    }
+  },
+  "common": {
+    "language": "Langue",
+    "loading": "Chargement...",
+    "loadingResources": "Chargement des ressources",
+    "loadingAppShell": "Initialisation des fournisseurs et préparation de l'expérience.",
+    "error": "Erreur",
+    "success": "Succès",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "close": "Fermer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "site": {
+    "title": "nextjs boilerplate",
+    "name": "nextjs boilerplate",
+    "shortName": "EF",
+    "description": "Architecture Next.js 14 prête pour l'entreprise avec tests et monitoring complets."
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter",
+    "forgotPassword": "Mot de passe oublié?",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "dontHaveAccount": "Pas de compte?",
+    "alreadyHaveAccount": "Déjà un compte?",
+    "signInSuccess": "Connexion réussie",
+    "signOutSuccess": "Déconnexion réussie",
+    "invalidCredentials": "Identifiants invalides",
+    "authenticationFailed": "Échec de l'authentification",
+    "workEmail": "Email professionnel",
+    "emailPlaceholder": "vous@entreprise.com",
+    "passwordPlaceholder": "••••••••",
+    "emailRequired": "Veuillez saisir votre email",
+    "emailInvalid": "Veuillez saisir un email valide",
+    "emailDomainInvalid": "Veuillez utiliser un domaine professionnel autorisé.",
+    "emailDomainHint": "Domaines autorisés : {domains}",
+    "emailAlreadyRegistered": "Cet email est déjà enregistré.",
+    "passwordRequired": "Veuillez saisir votre mot de passe",
+    "passwordMin": "Le mot de passe doit contenir au moins 8 caractères",
+    "passwordSpecialChar": "Le mot de passe doit contenir au moins un caractère spécial.",
+    "nameMin": "Le nom doit contenir au moins 2 caractères",
+    "networkIssue": "Impossible de contacter le serveur. Veuillez réessayer.",
+    "signInDescription": "Connectez-vous pour accéder à votre espace de travail.",
+    "signingIn": "Connexion en cours…",
+    "checkingSession": "Vérification de la session...",
+    "resetPasswordTitle": "Réinitialisez votre mot de passe",
+    "resetPasswordDescription": "Saisissez votre email professionnel et nous vous enverrons un lien de réinitialisation.",
+    "enterOtpDescription": "Saisissez le code à 6 chiffres envoyé à votre email.",
+    "setNewPasswordDescription": "Définissez un nouveau mot de passe pour votre compte.",
+    "sendingResetLink": "Envoi en cours…",
+    "sending": "Envoi en cours…",
+    "sendResetLink": "Envoyer le lien de réinitialisation",
+    "resetFailed": "Échec de l'envoi du lien de réinitialisation",
+    "resetPasswordError": "Échec de la réinitialisation du mot de passe",
+    "resetLinkSent": "Nous avons envoyé un lien de réinitialisation à {email}. Vérifiez votre boîte de réception.",
+    "returnToSignIn": "Revenir à la connexion",
+    "backToSignIn": "Retour à la connexion",
+    "rememberedPassword": "Vous vous souvenez de votre mot de passe ?",
+    "signUpTitle": "Créer un compte",
+    "signUpDescription": "Utilisez votre email professionnel pour créer un nouveau compte.",
+    "creatingAccount": "Création en cours…",
+    "createAccount": "Créer un compte",
+    "termsNotice": "En continuant, vous acceptez nos conditions et notre politique de confidentialité.",
+    "passwordMismatch": "Les mots de passe doivent correspondre",
+    "invalidForm": "Formulaire invalide",
+    "registrationFailed": "Échec de l'inscription",
+    "otpTitle": "Vérifiez votre email",
+    "otpDescription": "Saisissez le code à 6 chiffres envoyé à {email}.",
+    "otpCode": "Code de vérification",
+    "verifyOtp": "Vérifier",
+    "otp6Digits": "Code à 6 chiffres",
+    "otpPlaceholder": "Entrez le code",
+    "verifyingOtp": "Vérification…",
+    "resendOtp": "Renvoyer le code",
+    "resendingOtp": "Renvoi…",
+    "otpSent": "Nous avons envoyé un code de vérification à {email}.",
+    "otpResent": "Un nouveau code a été envoyé à {email}.",
+    "otpInvalid": "Code invalide",
+    "otpVerifiedSuccess": "Code OTP vérifié avec succès ! Redirection vers la connexion...",
+    "passwordResetSuccess": "Mot de passe réinitialisé avec succès ! Redirection vers la connexion...",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "rateLimited": "Trop de tentatives. Réessayez plus tard.",
+    "otpExpired": "OTP expiré. Demandez-en un nouveau.",
+    "changePassword": "Changer le mot de passe",
+    "currentPassword": "Mot de passe actuel",
+    "changePasswordSuccess": "Mot de passe modifié avec succès",
+    "changePasswordError": "Échec de la modification du mot de passe",
+    "passwordMustBeDifferent": "Le nouveau mot de passe doit être différent du mot de passe actuel",
+    "cancel": "Annuler",
+    "togglePasswordVisibility": "Afficher/masquer le mot de passe"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Consultez les indicateurs clés, les validations en attente et la dernière activité sur la plateforme.",
+    "users": "Utilisateurs",
+    "products": "Produits",
+    "welcome": "Bienvenue",
+    "userManagement": "Gestion des utilisateurs",
+    "productManagement": "Gestion des produits",
+    "loadingInsights": "Chargement des analyses utilisateurs",
+    "projects": {
+      "heading": "Projets",
+      "createNew": "Créer",
+      "empty": "Vous n'avez pas encore de projet",
+      "emptyCta": "Créez votre premier projet",
+      "noThumbnail": "Pas de vignette",
+      "opening": "Ouverture...",
+      "viewDetails": "Voir les détails",
+      "createdBy": "Créé par {name}"
+    },
+    "modals": {
+      "create": {
+        "title": "Créer un nouveau projet",
+        "ok": "Créer",
+        "cancel": "Annuler",
+        "nameLabel": "Nom du projet",
+        "namePlaceholder": "Saisissez le nom du projet",
+        "nameRequired": "Veuillez saisir un nom de projet",
+        "nameEmpty": "Le nom du projet ne peut pas être vide",
+        "imageLabel": "Image du projet (optionnel)",
+        "uploadHint": "Téléverser une image",
+        "uploadTypes": "PNG, JPEG (max {size}Mo)",
+        "onlyTypes": "Seuls les formats PNG et JPEG sont autorisés",
+        "sizeLimit": "L'image doit être inférieure à {size}Mo",
+        "previewAlt": "Aperçu"
+      },
+      "edit": {
+        "title": "Modifier le projet",
+        "ok": "Enregistrer",
+        "cancel": "Annuler",
+        "uploadNew": "Téléverser une nouvelle image",
+        "currentImage": "Image actuelle",
+        "newImage": "Nouvelle image"
+      }
+    },
+    "notifications": {
+      "createSuccess": "Projet créé avec succès",
+      "createError": "Échec de la création du projet",
+      "updateSuccess": "Projet mis à jour avec succès",
+      "updateError": "Échec de la mise à jour du projet"
+    }
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "fullNamePlaceholder": "Entrez votre nom complet",
+    "addUser": "Ajouter un utilisateur",
+    "editUser": "Modifier l'utilisateur",
+    "deleteUser": "Supprimer l'utilisateur",
+    "name": "Nom",
+    "fullName": "Nom complet",
+    "email": "Email",
+    "role": "Rôle",
+    "status": "Statut",
+    "actions": "Actions",
+    "noUsers": "Aucun utilisateur trouvé",
+    "loadingUsers": "Chargement des utilisateurs...",
+    "userAdded": "Utilisateur ajouté avec succès",
+    "userUpdated": "Utilisateur mis à jour avec succès",
+    "userDeleted": "Utilisateur supprimé avec succès",
+    "team": "Équipe",
+    "teamDescription": "Gérez tous les collaborateurs affectés à cet espace de travail.",
+    "searchPlaceholder": "Rechercher des membres",
+    "loadingTeam": "Chargement de l'équipe…",
+    "noResults": "Aucun résultat ne correspond au filtre actuel.",
+    "createUser": "Créer un utilisateur",
+    "saveChanges": "Enregistrer les modifications",
+    "saving": "Enregistrement…",
+    "invalidData": "Données invalides",
+    "submitError": "Impossible d'envoyer le formulaire",
+    "statusOptions": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    }
+  },
+  "products": {
+    "title": "Produits",
+    "addProduct": "Ajouter un produit",
+    "editProduct": "Modifier le produit",
+    "deleteProduct": "Supprimer le produit",
+    "name": "Nom",
+    "price": "Prix",
+    "description": "Description",
+    "status": "Statut",
+    "actions": "Actions",
+    "noProducts": "Aucun produit trouvé",
+    "loadingProducts": "Chargement des produits...",
+    "productAdded": "Produit ajouté avec succès",
+    "productUpdated": "Produit mis à jour avec succès",
+    "productDeleted": "Produit supprimé avec succès",
+    "subtitle": "Gérez le catalogue, mettez à jour les prix et surveillez la santé des produits en temps réel.",
+    "catalogTitle": "Catalogue",
+    "catalogDescription": "Filtrer et gérer l'inventaire des produits.",
+    "searchPlaceholder": "Rechercher des produits",
+    "loadingList": "Chargement de la liste des produits",
+    "inventoryLabel": "Stock : {count}",
+    "statusLabels": {
+      "published": "Publié",
+      "draft": "Brouillon",
+      "archived": "Archivé"
+    }
+  },
+  "layout": {
+    "header": {
+      "notifications": "Notifications",
+      "profile": "Profil",
+      "settings": "Paramètres",
+      "changePassword": "Changer le mot de passe",
+      "signOut": "Se déconnecter",
+      "tagline": "Tableau de bord opérationnel"
+    },
+    "sidebar": {
+      "navigation": "Navigation",
+      "dashboard": "Tableau de bord",
+      "users": "Utilisateurs",
+      "products": "Produits",
+      "home": "Accueil"
+    },
+    "footer": {
+      "copyright": "© {year} nextjs boilerplate. Tous droits réservés."
+    }
+  },
+  "project": {
+    "breadcrumb": {
+      "dashboard": "Tableau de bord",
+      "project": "Projet"
+    },
+    "tabs": {
+      "dashboard": "Tableau de bord de la base",
+      "history": "Historique de la base",
+      "collaborators": "Collaborateurs"
+    },
+    "history": {
+      "title": "Historique de la base",
+      "description": "Consultez l'historique de toutes les opérations de scraping et leurs résultats."
+    },
+    "collaborators": {
+      "title": "Collaborateurs",
+      "description": "Gérez les membres de l'équipe et les destinataires des résultats de scraping."
+    },
+    "common": {
+      "comingSoon": "Bientôt disponible..."
+    },
+    "dashboard": {
+      "title": "Tableau de bord de la base",
+      "addNew": "Ajouter un scraping",
+      "empty": {
+        "title": "Aucun scraping pour le moment",
+        "description": "Commencez en créant votre première configuration de scraping.",
+        "cta": "Créer un scraping"
+      },
+      "card": {
+        "scraping": "Scraping :",
+        "dataSource": "Source de données :",
+        "rows": "Lignes :",
+        "frequency": "Fréquence :",
+        "start": "Démarrer"
+      }
+    },
+    "form": {
+      "title": {
+        "edit": "Modifier le scraping",
+        "create": "Configurer un nouveau scraping"
+      },
+      "tabs": {
+        "source": "Configuration de la source",
+        "frequency": "Configurer la fréquence"
+      },
+      "fields": {
+        "name": "Nom du scraping",
+        "dataSource": "Sélectionner la source de données :",
+        "rows": "Sélectionner le nombre de lignes",
+        "frequency": "Fréquence",
+        "weekDays": "Sélectionner les jours de la semaine :",
+        "monthStart": "Date de début du mois",
+        "monthEnd": "Date de fin du mois",
+        "notifyEmails": "Envoyer un email une fois terminé à :"
+      },
+      "placeholders": {
+        "name": "Nom du scraping"
+      },
+      "options": {
+        "frequency": {
+          "daily": "Quotidien",
+          "weekly": "Hebdomadaire",
+          "monthly": "Mensuel"
+        },
+        "dataSource": {
+          "apollo": "Apollo",
+          "salesNavigator": "Sales Navigator"
+        },
+        "weekDays": {
+          "monday": "Lundi",
+          "tuesday": "Mardi",
+          "wednesday": "Mercredi",
+          "thursday": "Jeudi",
+          "friday": "Vendredi",
+          "saturday": "Samedi",
+          "sunday": "Dimanche"
+        }
+      },
+      "remove": "Supprimer",
+      "addEmail": "+ Ajouter un email",
+      "duplicate": "Dupliquer",
+      "saving": "Enregistrement...",
+      "save": "Enregistrer",
+      "update": "Mettre à jour",
+      "confirmDelete": "Supprimer ce scraping ?",
+      "errors": {
+        "invalidEmails": "Veuillez saisir des adresses email valides",
+        "emailRequired": "Au moins une adresse email est requise",
+        "nameLength": "Le nom doit contenir entre 3 et 100 caractères",
+        "weeklyDaysRequired": "Veuillez sélectionner au moins un jour pour la fréquence hebdomadaire",
+        "monthDatesRequired": "Veuillez sélectionner les dates de début et de fin du mois",
+        "startBeforeEnd": "La date de début doit être antérieure à la date de fin",
+        "invalidEmail": "Format d'email invalide",
+        "saveFailed": "Échec de l'enregistrement",
+        "deleteFailed": "Échec de la suppression",
+        "duplicateFailed": "Échec de la duplication"
+      }
+    },
+    "notifications": {
+      "createSuccess": "Scraping créé avec succès",
+      "createError": "Échec de la création du scraping",
+      "updateSuccess": "Scraping mis à jour avec succès",
+      "updateError": "Échec de la mise à jour du scraping",
+      "duplicateSuccess": "Scraping dupliqué avec succès",
+      "duplicateError": "Échec de la duplication du scraping",
+      "deleteSuccess": "Scraping supprimé avec succès",
+      "deleteError": "Échec de la suppression du scraping"
+    }
+  }
+}

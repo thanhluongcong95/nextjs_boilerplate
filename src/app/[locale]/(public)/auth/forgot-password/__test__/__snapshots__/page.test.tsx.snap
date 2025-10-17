@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ForgotPasswordPage should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="forgot-password-form"
+  >
+    ForgotPasswordForm Mock
+  </div>
+</DocumentFragment>
+`;

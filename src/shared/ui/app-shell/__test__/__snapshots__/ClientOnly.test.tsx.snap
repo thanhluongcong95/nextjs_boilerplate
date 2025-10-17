@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ClientOnly matches the snapshot after the client content mounts 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Snapshot heading
+    </h1>
+    <p>
+      Snapshot body copy
+    </p>
+  </div>
+</DocumentFragment>
+`;

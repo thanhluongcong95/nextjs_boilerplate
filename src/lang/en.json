@@ -1,0 +1,380 @@
+{
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your profile and preferences",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "personalInfo": "Personal Information",
+    "noProfileData": "No profile data available. Please log in.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter phone number",
+      "role": "Role",
+      "joinedDate": "Joined Date",
+      "avatar": "Profile Picture",
+      "avatarPlaceholder": "https://example.com/avatar.jpg",
+      "uploadAvatar": "Upload Photo",
+      "save": "Save Changes",
+      "cancel": "Cancel"
+    },
+    "messages": {
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Failed to update profile"
+    },
+    "loading": "Loading profile information...",
+    "validation": {
+      "required": "This field is required",
+      "phoneInvalid": "Phone number must be at least 10 digits"
+    }
+  },
+  "common": {
+    "language": "Language",
+    "loading": "Loading...",
+    "loadingResources": "Loading resources",
+    "loadingAppShell": "Initializing providers and preparing the experience.",
+    "error": "Error",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "site": {
+    "title": "nextjs boilerplate",
+    "name": "nextjs boilerplate",
+    "shortName": "EF",
+    "description": "Enterprise-ready Next.js 14 architecture with full testing and monitoring."
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "forgotPassword": "Forgot Password?",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInSuccess": "Signed in successfully",
+    "signOutSuccess": "Signed out successfully",
+    "invalidCredentials": "Invalid credentials",
+    "authenticationFailed": "Authentication failed",
+    "workEmail": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "••••••••",
+    "emailRequired": "Please enter your email",
+    "emailInvalid": "Please enter a valid email",
+    "emailDomainInvalid": "Please use an approved business email domain.",
+    "emailDomainHint": "Allowed domains: {domains}",
+    "emailAlreadyRegistered": "This email is already registered.",
+    "passwordRequired": "Please enter your password",
+    "passwordMin": "Password must be at least 8 characters",
+    "passwordSpecialChar": "Password must include at least one special character.",
+    "nameMin": "Name must be at least 2 characters",
+    "networkIssue": "We cannot reach the server. Please try again.",
+    "signInDescription": "Sign in to access your workspace.",
+    "signingIn": "Signing in…",
+    "checkingSession": "Checking session...",
+    "resetPasswordTitle": "Reset your password",
+    "resetPasswordDescription": "Enter your work email and we will send you a reset link.",
+    "enterOtpDescription": "Enter the 6-digit code sent to your email.",
+    "setNewPasswordDescription": "Set a new password for your account.",
+    "sendingResetLink": "Sending…",
+    "sending": "Sending…",
+    "sendResetLink": "Send reset link",
+    "resetFailed": "Failed to send reset link",
+    "resetPasswordError": "Failed to reset password",
+    "resetLinkSent": "We sent a reset link to {email}. Check your inbox.",
+    "returnToSignIn": "Return to sign in",
+    "backToSignIn": "Back to sign in",
+    "rememberedPassword": "Remembered your password?",
+    "signUpTitle": "Create account",
+    "signUpDescription": "Use your work email to register a new account.",
+    "creatingAccount": "Creating…",
+    "createAccount": "Create account",
+    "termsNotice": "By continuing you agree to our terms and privacy policy.",
+    "passwordMismatch": "Passwords must match",
+    "invalidForm": "Invalid form",
+    "registrationFailed": "Registration failed",
+    "otpTitle": "Verify your email",
+    "otpDescription": "Enter the 6-digit code sent to {email}.",
+    "otpCode": "Verification code",
+    "verifyOtp": "Verify",
+    "otp6Digits": "6-digit code",
+    "otpPlaceholder": "Enter 6-digit code",
+    "verifyingOtp": "Verifying…",
+    "resendOtp": "Resend code",
+    "resendingOtp": "Resending…",
+    "otpSent": "We sent a verification code to {email}.",
+    "otpResent": "A new code was sent to {email}.",
+    "otpInvalid": "Code invalid",
+    "otpVerifiedSuccess": "OTP verified successfully! Redirecting to sign in...",
+    "passwordResetSuccess": "Password reset successfully! Redirecting to sign in...",
+    "resetPassword": "Reset password",
+    "newPassword": "New password",
+    "rateLimited": "Too many attempts. Please try again later.",
+    "otpExpired": "OTP expired. Request a new one.",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "changePasswordSuccess": "Password changed successfully",
+    "changePasswordError": "Failed to change password",
+    "passwordMustBeDifferent": "New password must be different from current password",
+    "cancel": "Cancel",
+    "togglePasswordVisibility": "Toggle password visibility"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Review key metrics, pending approvals, and the latest activity inside the platform.",
+    "users": "Users",
+    "products": "Products",
+    "welcome": "Welcome",
+    "userManagement": "User Management",
+    "productManagement": "Product Management",
+    "loadingInsights": "Loading user insights",
+    "projects": {
+      "heading": "Projects",
+      "createNew": "Create new",
+      "empty": "You don't have any project yet",
+      "emptyCta": "Create your first project",
+      "noThumbnail": "No thumbnail",
+      "opening": "Opening...",
+      "viewDetails": "View details",
+      "createdBy": "Created by {name}"
+    },
+    "modals": {
+      "create": {
+        "title": "Create New Project",
+        "ok": "Create",
+        "cancel": "Cancel",
+        "nameLabel": "Project Name",
+        "namePlaceholder": "Enter project name",
+        "nameRequired": "Please enter a project name",
+        "nameEmpty": "Project name cannot be empty",
+        "imageLabel": "Project Image (Optional)",
+        "uploadHint": "Upload image",
+        "uploadTypes": "PNG, JPEG (max {size}MB)",
+        "onlyTypes": "Only PNG and JPEG images are allowed",
+        "sizeLimit": "Image must be smaller than {size}MB",
+        "previewAlt": "Preview"
+      },
+      "edit": {
+        "title": "Edit Project",
+        "ok": "Save Changes",
+        "cancel": "Cancel",
+        "uploadNew": "Upload new image",
+        "currentImage": "Current image",
+        "newImage": "New image"
+      }
+    },
+    "notifications": {
+      "createSuccess": "Project created successfully",
+      "createError": "Failed to create project",
+      "updateSuccess": "Project updated successfully",
+      "updateError": "Failed to update project"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "fullNamePlaceholder": "Enter your full name",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "name": "Name",
+    "fullName": "Full name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "actions": "Actions",
+    "noUsers": "No users found",
+    "loadingUsers": "Loading users...",
+    "userAdded": "User added successfully",
+    "userUpdated": "User updated successfully",
+    "userDeleted": "User deleted successfully",
+    "team": "Team",
+    "teamDescription": "Manage all collaborators assigned to this workspace.",
+    "searchPlaceholder": "Search team members",
+    "loadingTeam": "Loading team…",
+    "noResults": "No results match the current filter.",
+    "createUser": "Create user",
+    "saveChanges": "Save changes",
+    "saving": "Saving…",
+    "invalidData": "Invalid data",
+    "submitError": "Unable to submit form",
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "deleteProduct": "Delete Product",
+    "name": "Name",
+    "price": "Price",
+    "description": "Description",
+    "status": "Status",
+    "actions": "Actions",
+    "noProducts": "No products found",
+    "loadingProducts": "Loading products...",
+    "productAdded": "Product added successfully",
+    "productUpdated": "Product updated successfully",
+    "productDeleted": "Product deleted successfully",
+    "subtitle": "Manage the catalog, update pricing, and monitor product health in real-time.",
+    "catalogTitle": "Catalog",
+    "catalogDescription": "Filter and manage product inventory.",
+    "searchPlaceholder": "Search products",
+    "loadingList": "Loading product list",
+    "inventoryLabel": "Inventory: {count}",
+    "statusLabels": {
+      "published": "Published",
+      "draft": "Draft",
+      "archived": "Archived"
+    }
+  },
+  "layout": {
+    "header": {
+      "notifications": "Notifications",
+      "profile": "Profile",
+      "settings": "Settings",
+      "changePassword": "Change Password",
+      "signOut": "Sign Out",
+      "tagline": "Operational dashboard"
+    },
+    "sidebar": {
+      "navigation": "Navigation",
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "products": "Products",
+      "home": "Home"
+    },
+    "footer": {
+      "copyright": "© {year}nextjs boilerplate. All rights reserved."
+    }
+  },
+  "project": {
+    "breadcrumb": {
+      "dashboard": "Dashboard",
+      "project": "Project"
+    },
+    "tabs": {
+      "dashboard": "Database Dashboard",
+      "history": "Database History",
+      "collaborators": "Collaborators"
+    },
+    "history": {
+      "title": "Database History",
+      "description": "View the history of all scraping operations and their results."
+    },
+    "collaborators": {
+      "title": "Collaborators",
+      "description": "Manage team members and email recipients for scraping results."
+    },
+    "common": {
+      "comingSoon": "Coming soon..."
+    },
+    "dashboard": {
+      "title": "Database dashboard",
+      "addNew": "Add new scraping",
+      "empty": {
+        "title": "No scrapings yet",
+        "description": "Get started by creating your first scraping configuration.",
+        "cta": "Create Scraping"
+      },
+      "card": {
+        "scraping": "Scraping:",
+        "dataSource": "Data source:",
+        "rows": "Rows:",
+        "frequency": "Frequency:",
+        "start": "Start"
+      }
+    },
+    "form": {
+      "title": {
+        "edit": "Edit Scraping",
+        "create": "Setup New Scraping"
+      },
+      "tabs": {
+        "source": "Source configuration",
+        "frequency": "Setup frequency"
+      },
+      "fields": {
+        "name": "Name of scraping",
+        "dataSource": "Select data source:",
+        "rows": "Select number of rows",
+        "frequency": "Frequency",
+        "weekDays": "Select days of the week:",
+        "monthStart": "Start date of month",
+        "monthEnd": "End date of month",
+        "notifyEmails": "Send email when finished to:"
+      },
+      "placeholders": {
+        "name": "Name of scraping"
+      },
+      "options": {
+        "frequency": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly"
+        },
+        "dataSource": {
+          "apollo": "Apollo",
+          "salesNavigator": "Sales Navigator"
+        },
+        "weekDays": {
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday"
+        }
+      },
+      "remove": "Remove",
+      "addEmail": "+ Add email",
+      "duplicate": "Duplicate",
+      "saving": "Saving...",
+      "save": "Save",
+      "update": "Update",
+      "confirmDelete": "Delete this scraping?",
+      "errors": {
+        "invalidEmails": "Please enter valid email addresses",
+        "emailRequired": "At least one email address is required",
+        "nameLength": "Name must be between 3 and 100 characters",
+        "weeklyDaysRequired": "Please select at least one day for weekly frequency",
+        "monthDatesRequired": "Please select both start and end dates for monthly frequency",
+        "startBeforeEnd": "Start date must be before end date",
+        "invalidEmail": "Invalid email format",
+        "saveFailed": "Save failed",
+        "deleteFailed": "Delete failed",
+        "duplicateFailed": "Duplicate failed"
+      }
+    },
+    "notifications": {
+      "createSuccess": "Scraping created successfully",
+      "createError": "Failed to create scraping",
+      "updateSuccess": "Scraping updated successfully",
+      "updateError": "Failed to update scraping",
+      "duplicateSuccess": "Scraping duplicated successfully",
+      "duplicateError": "Failed to duplicate scraping",
+      "deleteSuccess": "Scraping deleted successfully",
+      "deleteError": "Failed to delete scraping"
+    }
+  }
+}
